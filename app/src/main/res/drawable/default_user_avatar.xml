@@ -1,0 +1,22 @@
+<!-- Vector drawable với icon người dùng đẹp mắt -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Background circle -->
+    <path
+        android:fillColor="#E3F2FD"
+        android:pathData="M100,100m-100,0a100,100 0,1 1,200 0a100,100 0,1 1,-200 0"/>
+
+    <!-- User icon - Head -->
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M100,70 C88.95,70 80,78.95 80,90 C80,101.05 88.95,110 100,110 C111.05,110 120,101.05 120,90 C120,78.95 111.05,70 100,70Z"/>
+
+    <!-- User icon - Body -->
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M100,115 C75,115 60,125 60,150 L60,160 C60,165 62,170 67,170 L133,170 C138,170 140,165 140,160 L140,150 C140,125 125,115 100,115Z"/>
+</vector>
